@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Login and Signup Form</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="container forms">
+      <div class="form login">
+        <div class="form-content">
+          <img src="images/pass.png" alt="pass-logo" />
+          <header>Check out Pass — it's free!</header>
+          <p class="txt">
+            Pass helps freelancers, consultants, and small businesses around the
+            world simplify their finances.
+          </p>
+          <form action="#">
+            <div class="field input-field">
+              <input type="email" placeholder="Email" class="input" />
+            </div>
+
+            <div class="field input-field">
+              <input type="password" placeholder="Password" class="password" />
+              <i class="bx bx-hide eye-icon"></i>
+            </div>
+            <p class="mini">At least 8 characters, but longer is better</p>
+
+            <div class="field button-field">
+              <button>Get started</button>
+            </div>
+          </form>
+
+          <div class="form-link">
+            <a href="#" class="forgot-pass">Forgot password?</a>
+          </div>
+
+          <div class="line"></div>
+
+          <div class="media-options">
+            <a href="#" class="field google">
+              <img src="images/google.png" alt="" class="google-img" />
+              <span>Login with Google</span>
+            </a>
+          </div>
+
+          <span class="mini2"
+            >By logging up, you are indicating that you have read and agree to
+            the<a href="#" class="link signup-link">Terms of Use</a> and
+            <a href="#" class="link">Privacy Policy</a></span
+          >
+
+          <div class="form-link">
+            <span
+              >Don't have an account?
+              <a href="#" class="link signup-link">Signup</a></span
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Signup Form -->
+
+      <div class="form signup">
+        <div class="form-content">
+          <img src="images/pass.png" alt="pass-logo" />
+          <header>Check out Pass — it's free!</header>
+          <p class="txt">
+            Pass helps freelancers, consultants, and small businesses around the
+            world simplify their finances.
+          </p>
+          <form action="#">
+            <div class="field input-field">
+              <input type="email" placeholder="Email" class="input" />
+            </div>
+
+            <div class="field input-field">
+              <input
+                type="password"
+                placeholder="Create password"
+                class="password"
+              />
+            </div>
+            <p class="mini">At least 8 characters, but longer is better</p>
+            <div class="field input-field">
+              <input
+                type="password"
+                placeholder="Confirm password"
+                class="password"
+              />
+              <i class="bx bx-hide eye-icon"></i>
+            </div>
+
+            <div class="field button-field">
+              <button>Signup</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="media-options">
+          <a href="#" class="field google">
+            <img src="images/google.png" alt="" class="google-img" />
+            <span>Signup with Google</span>
+          </a>
+        </div>
+        <span class="mini2"
+          >By signing up, you are indicating that you have read and agree to
+          the<a href="#" class="link signup-link">Terms of Use</a> and
+          <a href="#" class="link">Privacy Policy</a></span
+        >
+
+        <div class="form-link">
+          <span
+            >Already have an account?
+            <a href="#" class="link login-link">Login</a></span
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
